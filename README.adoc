@@ -1,0 +1,1 @@
+This is a sample project to showcase an issue with the `getenv` posix function on Windows systems, wherein it will return ASCII strings, which will return faulty strings for environment variables that contain non ASCII characters.
